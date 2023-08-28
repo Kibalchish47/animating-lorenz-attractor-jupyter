@@ -1,5 +1,6 @@
 # Animating-Lorenz-Attractor
 Lorenz system animation and visualization of its strange attractor with Python (Jupyter Notebook). 
+This project is based on the code provided in this article: https://geoffboeing.com/2016/12/animating-lorenz-attractor-python/.
 
 Table of Contents: 
 - 
@@ -11,13 +12,13 @@ Lorenz first discovered chaos by accident while developing a simple mathematical
 In 1963, Lorenz developed this simple model (consisting of a system of 3 ordinary differential equations) of the way air moves around in the atmosphere:
 
 $$
-\frac{{dx}}{{dt}} = \sigma \cdot (y - x)
+\frac{{dx}}{{dt}} = \sigma(y - x)
 $$
 $$
-\frac{{dy}}{{dt}} = x \cdot (\rho - z) - y
+\frac{{dy}}{{dt}} = x(\rho - z) - y
 $$
 $$
-\frac{{dz}}{{dt}} = x \cdot y - \beta \cdot z
+\frac{{dz}}{{dt}} = xy - \beta z
 $$
 
 Now known as the Lorenz System, this model demonstrates chaos at certain parameter values, and its attractor is fractal (the trajectories never overlap).
