@@ -1,5 +1,6 @@
 # Animating-Lorenz-Attractor
 Lorenz system animation and visualization of its strange attractor with Python (Jupyter Notebook). 
+
 This project is based on the code provided in this article: https://geoffboeing.com/2016/12/animating-lorenz-attractor-python/.
 
 Table of Contents: 
