@@ -8,27 +8,27 @@ Table of Contents:
 ## Introduction
 Edward Lorenz, the father of chaos theory, once described chaos as "[...] when the present determines the future, but the approximate present does not approximately determine the future". 
 
-Lorenz first discovered chaos by accident while developing a simple mathematical model of atmospheric convection, using three ordinary differential equations. He found that nearly indistinguishable initial conditions could produce completely divergent outcomes, rendering weather prediction impossible beyond a time horizon of about a fortnight (14 days).
+Lorenz first discovered chaos by accident while developing a simple mathematical model of atmospheric convection (which had over 10 variables), using three ordinary differential equations. He found that nearly indistinguishable initial conditions could produce completely divergent outcomes, rendering weather prediction impossible beyond a time horizon of about a fortnight (14 days).
 
-In 1963, Lorenz developed this simple model (consisting of a system of 3 ordinary differential equations) of the way air moves around in the atmosphere:
+In 1963, Lorenz took his atmospheric convection model and simplified it to a system of 3 ordinary differential equations that still exibited the chaotic behavior of the latter:
 
 $$
-\frac{{dx}}{{dt}} = \sigma(y - x)
+\frac{{dx}}{{dt}} = \dot{x} = \sigma(y - x)
 $$
 $$
-\frac{{dy}}{{dt}} = x(\rho - z) - y
+\frac{{dy}}{{dt}} = \dot{y} = x(\rho - z) - y
 $$
 $$
-\frac{{dz}}{{dt}} = xy - \beta z
+\frac{{dz}}{{dt}} = \dot{z} = xy - \beta z
 $$
 
-Now known as the Lorenz System, this model demonstrates chaos at certain parameter values, and its attractor is fractal (the trajectories never overlap).
+Note that $\frac{{dx}}{{dt}}$ is denoted as $\dot{x}$, $\frac{{dy}}{{dt}}$ is denoted as $\dot{y}$, and $\frac{{dz}}{{dt}}$ is denoted as $\dot{z}$. This notation applies only when the derivative is taken with respect to time (as an independent variable). 
 
 The equations relate the properties of a two-dimensional fluid layer uniformly warmed from below and cooled from above. In particular, the equations describe the rate of change of three quantities with respect to time: x is proportional to the rate of convection, y to the horizontal temperature variation, and z to the vertical temperature variation. The constants σ, ρ, and β are system parameters proportional to the Prandtl number, Rayleigh number, and certain physical dimensions of the layer itself.
 
 The Lorenz equations can arise in simplified models for lasers, dynamos, thermosyphons, brushless DC motors, electric circuits, chemical reactions, and forward osmosis. The Lorenz equations are also the governing equations in Fourier space for the Malkus waterwheel.
 
-From a technical standpoint, the Lorenz system is nonlinear, aperiodic, three-dimensional and deterministic. The Lorenz equations have been the subject of hundreds of research articles, and at least one book-length study.
+From a technical standpoint, the Lorenz system is nonlinear, aperiodic, three-dimensional and deterministic. The Lorenz equations have been the subject of hundreds of research articles, and at least one book-length study. In other words, it's quite the mathematical titan. 
 
 ## Results of the Project
 ![3D Phase Space Plot](/images/lorenz-attractor-3d.png)
