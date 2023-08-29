@@ -30,10 +30,12 @@ The Lorenz equations can arise in simplified models for lasers, dynamos, thermos
 
 From a technical standpoint, the Lorenz system is nonlinear, aperiodic, three-dimensional and deterministic. The Lorenz equations have been the subject of hundreds of research articles, and at least one book-length study.
 
-## The Project
+## Results of the Project
+![3D Phase Space Plot](/images/lorenz-attractor-3d.png)
+![2D Slices of the 3D Phase Space Plot](/images/lorenz-attractor-phase-plane.png)
 
-## Analysis of the Lorentz System
-One normally assumes that the parameters σ, ρ, and β are positive. Lorenz used the values $\sigma = 10, \beta = 8/3$ and $\rho = 28$. The system exhibits chaotic behavior for these (and nearby) values.
+## Analysis of the Lorentz System (additional information)
+One normally assumes that the parameters σ, ρ, and β are positive. Lorenz used the values $\sigma = 10$, $\beta = 8/3$ and $\rho = 28$. The system exhibits chaotic behavior for these (and nearby) values.
 
 If $\rho < 1$ then there is only one equilibrium point, which is at the origin. This point corresponds to no convection. All orbits converge to the origin, which is a global attractor, when $\rho < 1$.
 
@@ -42,7 +44,7 @@ $(\sqrt{\beta(\rho - 1)}, \sqrt{\beta(\rho - 1)}, \rho - 1)$ and $(-\sqrt{\beta(
 
 These correspond to steady convection. This pair of equilibrium points is stable only if
 $$
-\rho <\sigma {\frac {\sigma +\beta +3}{\sigma -\beta -1}},
+\rho <\sigma {\frac {\sigma + \beta + 3}{\sigma -\beta - 1}},
 $$,
 which can hold only for positive ρ if $\sigma > \beta + 1$. At the critical value, both equilibrium points lose stability through a subcritical Hopf bifurcation.
 
@@ -50,7 +52,7 @@ When ρ = 28, σ = 10, and β = 8/3, the Lorenz system has chaotic solutions (bu
 
 Its Hausdorff dimension is estimated from above by the Lyapunov dimension (Kaplan-Yorke dimension) as 2.06±0.01, and the correlation dimension is estimated to be $2.05±0.01$. The exact Lyapunov dimension formula of the global attractor can be found analytically under classical restrictions on the parameters:
 
-$ \displaystyle 3-{\frac {2(\sigma + \beta +1)}{\sigma + 1 +{\sqrt {\left(\sigma -1\right)^{2} + 4\sigma \rho }}}} $
+$ \displaystyle 3-{\frac {2(\sigma + \beta + 1)}{\sigma + 1 + {\sqrt {\left(\sigma -1\right)^{2} + 4\sigma \rho }}}} $
 
 The Lorenz attractor is difficult to analyze, but the action of the differential equation on the attractor is described by a fairly simple geometric model. Proving that this is indeed the case is the fourteenth problem on the list of Smale's problems. This problem was the first one to be resolved, by Warwick Tucker in 2002.
 
