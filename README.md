@@ -31,8 +31,17 @@ The Lorenz equations can arise in simplified models for lasers, dynamos, thermos
 From a technical standpoint, the Lorenz system is nonlinear, aperiodic, three-dimensional and deterministic. The Lorenz equations have been the subject of hundreds of research articles, and at least one book-length study. In other words, it's quite the mathematical titan. 
 
 ## Results of the Project
-![3D Phase Space Plot](/images/lorenz-attractor-3d.png)
-![2D Slices of the 3D Phase Space Plot](/images/lorenz-attractor-phase-plane.png)
+### Version 1
+![3D Phase Space Plot](/images/lorenz-animate1/lorenz-attractor-3d-1.png)
+![2D Slices of the 3D Phase Space Plot](/images/lorenz-animate1/lorenz-attractor-phase-plane-1.png)
+
+### Version 2
+![3D Phase Space Plot](/images/lorenz-animate2/lorenz-attractor-3d-2.png)
+![2D Slices of the 3D Phase Space Plot](/images/lorenz-animate2/lorenz-attractor-phase-plane-2.png)
+
+### Version 3
+![3D Phase Space Plot](/images/lorenz-animate3/lorenz-attractor-3d-3.png)
+![2D Slices of the 3D Phase Space Plot](/images/lorenz-animate3/lorenz-attractor-phase-plane-3.png)
 
 ## Analysis of the Lorentz System (additional information)
 One normally assumes that the parameters σ, ρ, and β are positive. Lorenz used the values $\sigma = 10$, $\beta = 8/3$ and $\rho = 28$. The system exhibits chaotic behavior for these (and nearby) values.
