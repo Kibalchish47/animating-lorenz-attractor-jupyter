@@ -4,7 +4,14 @@ Lorenz system animation and visualization of its strange attractor with Python (
 This project is based on the code provided in this article: https://geoffboeing.com/2016/12/animating-lorenz-attractor-python/.
 
 Table of Contents: 
-- 
+1. [Introduction](#introduction)
+2. [Results of the Project](#results-of-the-project)
+    - [Version 1](#version-1)
+    - [Version 2](#version-2)
+    - [Version 3](#version-3)
+3. [Analysis of the Lorentz System (additional information)](#analysis-of-the-lorentz-system-additional-information)
+4. [References](#references)
+
 ## Introduction
 Edward Lorenz, the father of chaos theory, once described chaos as "[...] when the present determines the future, but the approximate present does not approximately determine the future". 
 
@@ -30,14 +37,17 @@ From a technical standpoint, the Lorenz system is nonlinear, aperiodic, three-di
 ## Results of the Project
 ### Version 1
 ![3D Phase Space Plot](/results/lorenz-animate1/lorenz-attractor-3d-1.png)
+![3D Phase Space Animation](/results/lorenz-animate1/attractor1.gif)
 ![2D Slices of the 3D Phase Space Plot](/results/lorenz-animate1/lorenz-attractor-phase-plane-1.png)
 
 ### Version 2
 ![3D Phase Space Plot](/results/lorenz-animate2/lorenz-attractor-3d-2.png)
+![3D Phase Space Animation](/results/lorenz-animate2/attractor2.gif)
 ![2D Slices of the 3D Phase Space Plot](/results/lorenz-animate2/lorenz-attractor-phase-plane-2.png)
 
 ### Version 3
 ![3D Phase Space Plot](/results/lorenz-animate3/lorenz-attractor-3d-3.png)
+![3D Phase Space Animation](/results/lorenz-animate3/attractor3.gif)
 ![2D Slices of the 3D Phase Space Plot](/results/lorenz-animate3/lorenz-attractor-phase-plane-3.png)
 
 ## Analysis of the Lorentz System (additional information)
@@ -63,3 +73,8 @@ $ \displaystyle 3-{\frac {2(\sigma + \beta + 1)}{\sigma + 1 + {\sqrt {\left(\sig
 The Lorenz attractor is difficult to analyze, but the action of the differential equation on the attractor is described by a fairly simple geometric model. Proving that this is indeed the case is the fourteenth problem on the list of Smale's problems. This problem was the first one to be resolved, by Warwick Tucker in 2002.
 
 For other values of $\rho$, the system displays knotted periodic orbits. For example, with $\rho = 99.96$ it becomes a $T(3,2)$ torus knot.
+
+## References 
+- https://geoffboeing.com/2016/12/animating-lorenz-attractor-python/
+- https://www.simiode.org/resources/8751/download/6-075-S-LorenzSystemSimulation-StudentVersion.pdf
+- https://www2.physics.ox.ac.uk/sites/default/files/profiles/read/lect6-43147.pdf
