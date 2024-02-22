@@ -13,16 +13,13 @@ Lorenz first discovered chaos by accident while developing a simple mathematical
 In 1963, Lorenz took his atmospheric convection model and simplified it to a system of 3 ordinary differential equations that still exibited the chaotic behavior of the latter:
 
 $$
-\frac{{dx}}{{dt}} = \dot{x} = \sigma(y - x)
+\frac{{dx}}{{dt}} = \sigma(y - x) \\
+\frac{{dy}}{{dt}} = x(\rho - z) - y \\
+\frac{{dz}}{{dt}} = xy - \beta z, \\
 $$
-$$
-\frac{{dy}}{{dt}} = \dot{y} = x(\rho - z) - y
-$$
-$$
-\frac{{dz}}{{dt}} = \dot{z} = xy - \beta z
-$$
+where x is proportional to the rate of convection, y to the horizontal temperature variation, and z to the vertical temperature variation. The constants σ, ρ, and β are system parameters proportional to the Prandtl number, Rayleigh number, and certain physical dimensions of the layer itself.
 
-Note that $\frac{{dx}}{{dt}}$ is denoted as $\dot{x}$, $\frac{{dy}}{{dt}}$ is denoted as $\dot{y}$, and $\frac{{dz}}{{dt}}$ is denoted as $\dot{z}$. This notation applies only when the derivative is taken with respect to time (as an independent variable). 
+Note that sometines $\frac{{dx}}{{dt}}$ is denoted as $\dot{x}$, $\frac{{dy}}{{dt}}$ is denoted as $\dot{y}$, and $\frac{{dz}}{{dt}}$ is denoted as $\dot{z}$. This notation applies only when the derivative is taken with respect to time (as an independent variable). 
 
 The equations relate the properties of a two-dimensional fluid layer uniformly warmed from below and cooled from above. In particular, the equations describe the rate of change of three quantities with respect to time: x is proportional to the rate of convection, y to the horizontal temperature variation, and z to the vertical temperature variation. The constants σ, ρ, and β are system parameters proportional to the Prandtl number, Rayleigh number, and certain physical dimensions of the layer itself.
 
@@ -32,16 +29,16 @@ From a technical standpoint, the Lorenz system is nonlinear, aperiodic, three-di
 
 ## Results of the Project
 ### Version 1
-![3D Phase Space Plot](/images/lorenz-animate1/lorenz-attractor-3d-1.png)
-![2D Slices of the 3D Phase Space Plot](/images/lorenz-animate1/lorenz-attractor-phase-plane-1.png)
+![3D Phase Space Plot](/results/lorenz-animate1/lorenz-attractor-3d-1.png)
+![2D Slices of the 3D Phase Space Plot](/results/lorenz-animate1/lorenz-attractor-phase-plane-1.png)
 
 ### Version 2
-![3D Phase Space Plot](/images/lorenz-animate2/lorenz-attractor-3d-2.png)
-![2D Slices of the 3D Phase Space Plot](/images/lorenz-animate2/lorenz-attractor-phase-plane-2.png)
+![3D Phase Space Plot](/results/lorenz-animate2/lorenz-attractor-3d-2.png)
+![2D Slices of the 3D Phase Space Plot](/results/lorenz-animate2/lorenz-attractor-phase-plane-2.png)
 
 ### Version 3
-![3D Phase Space Plot](/images/lorenz-animate3/lorenz-attractor-3d-3.png)
-![2D Slices of the 3D Phase Space Plot](/images/lorenz-animate3/lorenz-attractor-phase-plane-3.png)
+![3D Phase Space Plot](/results/lorenz-animate3/lorenz-attractor-3d-3.png)
+![2D Slices of the 3D Phase Space Plot](/results/lorenz-animate3/lorenz-attractor-phase-plane-3.png)
 
 ## Analysis of the Lorentz System (additional information)
 One normally assumes that the parameters σ, ρ, and β are positive. Lorenz used the values $\sigma = 10$, $\beta = 8/3$ and $\rho = 28$. The system exhibits chaotic behavior for these (and nearby) values.
