@@ -24,6 +24,7 @@ $$
 \frac{{dy}}{{dt}} = x(\rho - z) - y \\
 \frac{{dz}}{{dt}} = xy - \beta z, \\
 $$
+
 where x is proportional to the rate of convection, y to the horizontal temperature variation, and z to the vertical temperature variation. The constants σ, ρ, and β are system parameters proportional to the Prandtl number, Rayleigh number, and certain physical dimensions of the layer itself.
 
 Note that sometines $\frac{{dx}}{{dt}}$ is denoted as $\dot{x}$, $\frac{{dy}}{{dt}}$ is denoted as $\dot{y}$, and $\frac{{dz}}{{dt}}$ is denoted as $\dot{z}$. This notation applies only when the derivative is taken with respect to time (as an independent variable). 
