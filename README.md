@@ -20,9 +20,10 @@ Lorenz first discovered chaos by accident while developing a simple mathematical
 In 1963, Lorenz took his atmospheric convection model and simplified it to a system of 3 ordinary differential equations that still exibited the chaotic behavior of the latter:
 
 $$ \frac{{dx}}{{dt}} = \sigma(y - x) $$
-$$ \frac{{dy}}{{dt}} = x(\rho - z) - y $$
-$$ \frac{{dz}}{{dt}} = xy - \beta z, $$
 
+$$ \frac{{dy}}{{dt}} = x(\rho - z) - y $$
+
+$$ \frac{{dz}}{{dt}} = xy - \beta z $$
 
 where x is proportional to the rate of convection, y to the horizontal temperature variation, and z to the vertical temperature variation. The constants σ, ρ, and β are system parameters proportional to the Prandtl number, Rayleigh number, and certain physical dimensions of the layer itself.
 
